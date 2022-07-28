@@ -7,3 +7,56 @@ body{
 
     font-family: 'Russo One', sans-serif;
 }
+footer{
+    height: 430px;
+    margin-top: 120px;
+    background-color: rgb(23, 23, 23);
+}
+footer h1{
+    color: rgb(236, 236, 236);
+    position: relative;
+    text-align: center;
+    top: 120px;
+    cursor: pointer;
+}
+footer hr{
+    position: relative;
+    top: 150px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, rgb(66, 66, 66), rgb(255, 255, 255), rgb(66, 66, 66));
+}
+.necessary h4{
+    /* padding-left: 50px; */
+    font-weight: 200;
+    color: rgb(149, 149, 149);
+}
+.necessary span{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    position: relative;
+    top: 190px;
+}
+.necessary h4:hover{
+    color: white;
+    cursor: pointer;
+}
+/* .fa-facebook, .fa-instagram, .fa-twitter{
+    color: #E8E8E8;
+    font-size: 30px;
+} */
+.footer-icons{
+    font-size: 30px;
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+.footer-icons a{
+    color: #E8E8E8;
+    text-decoration: none;
+    cursor: pointer;
+}
